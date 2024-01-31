@@ -1,0 +1,208 @@
+/* Global Styles */
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#inicio {
+    color: aqua;
+    padding-left: 10em;
+    text-decoration: solid;
+    font-style: oblique;
+}
+.enorme {
+    display: flex;
+}
+.argentinabandera{
+    padding-left: 0.5em;
+    width: 7em;
+}
+.limenu{
+    padding-top: 1em; ;
+    padding-bottom: 1em ;
+    color: black;
+    text-decoration: none;
+}
+.nav{
+    position: static;
+    background-color: rgb(180, 252, 252);
+}
+.anavs{
+    display: flex;
+    padding-top: 1em;
+}
+.contenedormenulateral {
+    width: 15%;
+    float: left;
+    padding-left: 2%;
+    padding-top: 3%;
+    padding-bottom: 100%;
+    background-color: rgb(143, 255, 255);
+    position: static;
+}
+.demografia{
+    padding-right: 0.5em;
+}
+.contenido {
+    width: 85%;
+    float: left;
+    
+}
+
+.contenedor_columnas{
+    display: flex;
+    width: 100%;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.columna1 {
+    float: left;
+    margin: 2em;
+    margin-left: 3em;
+    margin-top: 3em;
+    width: 60%;
+}
+.todosloslugares{
+    text-align: center;
+}
+.lugares{
+    text-align: justify;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.columna2 {
+    float: left;
+    width: 40%;
+    margin: 2em;
+    padding-left: 5em;
+    text-align: justify;
+}
+
+
+
+.noticiastituloh2{
+    text-align: center;
+    color: aqua;
+    margin-bottom: 2em;
+}
+
+
+#img-1 {
+    background-image: url("../IMG/imgnoticias/Buenos_Aires_1.avif");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: auto;
+}
+
+#img-2 {
+    background-image: url("../IMG/imgnoticias/rajoygullermo.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: auto;
+}
+
+#img-3 {
+    background-image: url("../IMG/imgnoticias/hector-alterio-en-el-la-cafeteria-del-teatro-del-barrio.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: auto;
+}
+
+#img-4 {
+    background-image: url("../IMG/imgnoticias/655f60e71aab7.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: auto;
+}
+
+#lugar1 {
+    background-image: url("../IMG/Lugaresvisitar/visitar1.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: auto;
+}
+
+#lugar2 {
+    background-image: url("../IMG/Lugaresvisitar/Laboca.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: auto;
+    
+}
+
+#lugar3 {
+    background-image: url("../IMG/Lugaresvisitar/Microcentro.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    height: auto;
+}
+
+#lugar4 {
+    background-image: url("../IMG/Lugaresvisitar/plazademayo.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    height: auto;
+}
+iframe{
+    padding-left: 7%;
+    padding-top: 3%;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color: gainsboro;
+}
+.insta{
+    width: 2.5em;
+    /* margin-left: em; */
+}
+/* Responsive Styles */
+@media screen and (max-width: 700px) {
+    .argentinabandera {
+        width: 100%; /* Cambiado de 7em a 100% para ocupar el ancho completo en pantallas pequeñas */
+        padding-left: 1em;
+    }
+    .contenedormenulateral {
+        width: 90%;
+        height: 100%;
+        float: left;
+        padding-left: 2%;
+        padding-top: 3%;
+        padding-bottom: 100%;
+        background-color: rgb(143, 255, 255);
+        position: static;
+    }
+    .contenedor_columnas{
+        display:block;
+        width: 100%;
+        padding-left: 1em;
+        padding-top: 1em;
+    }
+    .columna1 {
+        float: left;
+        margin: 2em;
+        margin-left: 3em;
+        margin-top: 3em;
+        width: 100%;
+    }
+    .columna2 {
+        float: left;
+        width: 100%;
+        margin: 2em;
+        padding-left: 5em;
+        text-align: justify;
+    }
+}
